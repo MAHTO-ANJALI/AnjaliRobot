@@ -38,7 +38,7 @@ def totranslate(update: Update, context: CallbackContext) -> None:
     translation = trans(to_translate, sourcelang=source, targetlang=dest)
     reply = (
         f"𖣐 <b>ᴛʀᴀɴsʟᴀᴛᴇᴅ ғʀᴏᴍ {source} ᴛᴏ {dest}</b> ➥\n\n"
-        f"♥︎ {translation.text}\n\n𖣐 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ʟ ᴜ ᴄ ʏ • / ‹𝟹"
+        f"♥︎ {translation.text}\n\n𖣐 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ˹Ҩ፝֟፝ͷ ꫝɴᴊᴀʟɪ˼ [🇮🇳]"
     )
 
     message.reply_text(reply, parse_mode=ParseMode.HTML)
