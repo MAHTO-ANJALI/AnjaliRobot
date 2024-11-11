@@ -5,11 +5,11 @@ from pyrogram.errors import ChatAdminRequired, UserNotParticipant, ChatWriteForb
 from AvishaRobot import pbot as app
 
 #--------------------------
-MUST_JOIN = "The_friendz"
+MUST_JOIN = "ANJALIWORLD"
 #------------------------
 
 NYKAA = [
-    "https://graph.org/file/0c1e92bb565834519e962.jpg",
+    "https://envs.sh/qii.jpg",
 ]
 
 async def check_user_join_channel(user_id):
@@ -29,11 +29,11 @@ async def must_join_channel(app: Client, msg: Message):
             link = chat_info.invite_link
         try:
             await msg.reply_photo(
-                random.choice(NYKAA), caption=f"𖣐 ʜᴇʏ ᴛʜᴇʀᴇ, ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ᴜʜʜ. ♥︎\n\n● ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜsᴇ ɴ ᴏ ᴠ ᴧ ♡゙ ʙᴏᴛ, ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴀɴᴅ ʏᴏᴜ ᴊᴏɪɴ ᴏᴜʀ sᴜᴘᴘᴏʀᴛ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ, ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴀʟʟ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs.\n\n𖣐 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ [ʟ ᴜ ᴄ ʏ • / ‹𝟹](https://t.me/itsmeluccii)",
+                random.choice(NYKAA), caption=f"𖣐 ʜᴇʏ ᴛʜᴇʀᴇ, ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ᴜʜʜ. ♥︎\n\n● ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜsᴇ ᴀɴᴊᴀʟɪ ʀᴏʙᴏᴛ, ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴀɴᴅ ʏᴏᴜ ᴊᴏɪɴ ᴏᴜʀ sᴜᴘᴘᴏʀᴛ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ, ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴀʟʟ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs.\n\n𖣐 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ [˹Ҩ፝֟፝ͷ ꫝɴᴊᴀʟɪ˼ [🇮🇳]](https://t.me/AnjaliOwnerBot)",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/where_lucy"),
+                            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/ANJALINETWORK"),
                             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=link),
                         ],
                     ]
