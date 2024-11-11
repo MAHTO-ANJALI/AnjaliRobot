@@ -15,7 +15,7 @@ async def password(bot, update):
         qw = random.choice(ST)
     limit = int(qw)
     random_value = "".join(random.sample(password, limit))
-    txt = f"𖣐 <b>ʟɪᴍɪᴛ ➥</b> {str(limit)} \n\n● <b>ᴘᴀꜱꜱᴡᴏʀᴅ ➥ `<code>{random_value}</code>`\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ʟ ᴜ ᴄ ʏ • / ‹𝟹"
+    txt = f"𖣐 <b>ʟɪᴍɪᴛ ➥</b> {str(limit)} \n\n● <b>ᴘᴀꜱꜱᴡᴏʀᴅ ➥ `<code>{random_value}</code>`\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ˹Ҩ፝֟፝ͷ ꫝɴᴊᴀʟɪ˼ [🇮🇳]"
     btn = InlineKeyboardMarkup([[InlineKeyboardButton(' ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ', url='https://t.me/AvishaxBot?startgroup=true')]])
     await message.edit_text(text=txt, reply_markup=btn, parse_mode=enums.ParseMode.HTML)
 
