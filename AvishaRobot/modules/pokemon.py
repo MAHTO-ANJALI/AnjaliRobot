@@ -48,7 +48,7 @@ async def CutexMusic(client, message):
         await message.reply_text(f"⬤ ᴇʀʀᴏʀ ➥ {e}")
     except requests.RequestException as e:
            # ITTU SA ERROR 
-        await message.reply_text("⬤ ᴇʀʀᴏʀ ➥ @PhoenixXsupport ♥︎")
+        await message.reply_text("⬤ ᴇʀʀᴏʀ ➥ @AnjaliOwnerBot ♥︎")
     except KeyError:
            # I THIKNK YE NHI CHIYE 
         await message.reply_text("⬤ ᴘᴏᴋᴇᴍᴏɴ ᴡᴀs ɴᴏᴛ ғᴏᴜɴᴅ.")
