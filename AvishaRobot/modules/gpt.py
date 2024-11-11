@@ -30,7 +30,7 @@ async def chat_gpt(event):
 
                 # Add signature to the answer
                 answer = result.get("answer", "⬤ ɴᴏ ᴀɴsᴡᴇʀ ʀᴇᴄᴇɪᴠᴇᴅ ғʀᴏᴍ ᴄʜᴀᴛ ᴀɪ.")
-                signature = "\n\n𖣐 ᴀɴsᴡᴇʀɪɴɢ ʙʏ ➥ [ʟ ᴜ ᴄ ʏ • / ‹𝟹](https://t.me/PhoenixXsupport)"
+                signature = "\n\n𖣐 ᴀɴsᴡᴇʀɪɴɢ ʙʏ ➥ [˹Ҩ፝֟፝ͷ ꫝɴᴊᴀʟɪ˼ [🇮🇳]](https://t.me/TheAnjaliRobot)"
                 reply_message = answer + signature
 
                 # Edit the "Please wait" message with the final answer
