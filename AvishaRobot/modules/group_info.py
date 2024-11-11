@@ -32,7 +32,7 @@ async def get_group_status(_, message: Message):
         f"● ᴛᴏᴛᴀʟ ᴍᴇᴍʙᴇʀs ➥ {total_members}\n"
         f"● ᴜsᴇʀɴᴀᴍᴇ ➥ @{group_username}\n"
         f"● ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ➥ \n{group_description or 'N/A'}\n\n"
-        f"𖣐 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ʟ ᴜ ᴄ ʏ • / ‹𝟹"
+        f"𖣐 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ˹Ҩ፝֟፝ͷ ꫝɴᴊᴀʟɪ˼ [🇮🇳]"
     )
     
     await message.reply((response_text),reply_markup=InlineKeyboardMarkup(EVAA),)
@@ -51,7 +51,7 @@ def group_status(client, message):
                   f"● ᴛʏᴘᴇ ➥ {chat.type}\n"
                   
     if chat.username:  # Not all groups have a username
-        status_text += f"● ᴜsᴇʀɴᴀᴍᴇ ➥ @{chat.username}\n\n𖣐 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ʟ ᴜ ᴄ ʏ • / ‹𝟹"
+        status_text += f"● ᴜsᴇʀɴᴀᴍᴇ ➥ @{chat.username}\n\n𖣐 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ˹Ҩ፝֟፝ͷ ꫝɴᴊᴀʟɪ˼ [🇮🇳]"
     else:
         status_text += "Username: None"
 
