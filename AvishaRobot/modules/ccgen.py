@@ -6,7 +6,7 @@ from AvishaRobot import pbot as app
 
 EVAA = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/avishaxbot?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/TheAnjaliRobot?startgroup=true"),
     ],
 ]
 
@@ -35,7 +35,7 @@ async def gen_cc(client, message):
 `{cards[6]}`\n`{cards[7]}`\n`{cards[8]}`
 `{cards[9]}`
 
-𖣐 ᴄᴄ ɢᴇɴ ʙʏ ➥ ʟ ᴜ ᴄ ʏ • / ‹𝟹""" , reply_markup=InlineKeyboardMarkup(EVAA),
+𖣐 ᴄᴄ ɢᴇɴ ʙʏ ➥ ˹Ҩ፝֟፝ͷ ꫝɴᴊᴀʟɪ˼ [🇮🇳]""" , reply_markup=InlineKeyboardMarkup(EVAA),
         )
     except Exception as e:
         return await aux.edit(f"𖣐 ᴇʀʀᴏʀ ➥ {e}")
