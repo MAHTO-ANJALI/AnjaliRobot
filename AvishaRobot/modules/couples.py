@@ -14,7 +14,7 @@ AVISHA = [
     [
         InlineKeyboardButton(
             text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ",
-            url=f"https://t.me/avishaxbot?startgroup=true",
+            url=f"https://t.me/TheAnjaliRobot?startgroup=true",
         ),
     ],
 ]
